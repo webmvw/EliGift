@@ -1,0 +1,546 @@
+/* 
+Theme Name: Ele Gift;
+Author: Md. Masud Rana;
+Author URI: http://webmvwit.com/
+
+	=========================================
+		table of content
+	=========================================
+	1. default
+	2. header
+	3. banner
+	4. find gift
+	5. gift category
+	6. gift collection
+	7. thinking business
+    8. make us different
+    9. how dose it work
+    10. about gratitude
+    11. footer section
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap');
+body{
+	font-family: font-family: 'Poppins', sans-serif;
+	font-weight: 400;
+}
+
+
+
+/*
+   ==============================================
+	2. header
+   ==============================================
+*/
+.header_section{
+	background-color: #fff;
+	padding:15px 0px;
+}
+.main_menu ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.main_menu ul li a{
+    font-size: 18px;
+    color: #7c798e;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.main_menu ul li a:hover{
+	color:#150e4b;
+}
+.main_menu ul li a.active{
+	color:#150e4b;
+}
+.sign_up_button a{
+	border: 2px solid #B33E35;
+    border-radius: 20px;
+    color: #150e4b;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 30px;
+    display: inline-block;
+    text-align: center;
+}
+.sign_up_button a:hover{
+	background: #B33E35;
+	color:#fff;
+}
+
+
+
+
+/*
+   ==============================================
+	3. banner
+   ==============================================
+*/
+.banner_section{
+	padding-top: 100px;
+    padding-bottom: 200px;
+}
+.banner_content h3{
+	font-size: 40px;
+    color: #150e4b;
+    font-weight: 400;
+    line-height: 50px;
+}
+.banner_content h2{
+	font-size: 60px;
+    color: #150e4b;
+    font-weight: 600;
+    line-height: 80px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.banner_content p{
+	color: #222;
+    font-size: 18px;
+    font-weight: 400;
+}
+.banner_content a{
+	background: #B33E35;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 31px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-top: 35px;
+}
+
+
+
+
+/*
+   ==============================================
+	4. find gift
+   ==============================================
+*/
+.find_gift{
+	background: #fff;
+    border-radius: 30px;
+    padding: 50px 50px;
+    border:2px solid #EEF1F6;
+    align-items: center;
+}
+.find_gift_text{
+	display: flex;
+	align-items: center;
+}
+.find_gift_text h3{
+	color: #150e4b;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+/*
+   ==============================================
+	5. gift category
+   ==============================================
+*/
+.gift_category_section{
+	padding: 100px 0px;
+}
+.gift_category{
+	position: relative;
+}
+.overlay{
+	position: absolute;
+    top: 95px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100%; 
+    border-radius: 25px;
+    transition: 0.5s;
+}
+.overlay h2{
+	font-size: 28px;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.overlay a{
+	font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 2px solid #fff;
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 15px;
+    display: none;
+    transition: 0.5s;
+}
+
+.gift_category:hover .overlay{
+	background: #2222226b;
+	top:0;
+}
+.gift_category:hover .overlay a{
+	display: block;
+}
+
+
+
+/*
+   ==============================================
+	6. gift collection
+   ==============================================
+*/
+.gift_collection_section{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.gift_collection_title{
+    text-align: center;
+}
+.gift_collection_title h2{
+    font-size: 45px;
+    color: #150e4b;
+    line-height: 55px;
+    font-weight: 400;
+}
+.gift_collection_title ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.gift_collection_title ul li{
+    cursor: pointer;
+    font-size: 16px;
+    color: #150e4b;
+    border: 2px solid #dddfe2;
+    margin: 0px 10px;
+    padding: 8px 15px;
+    border-radius: 12px;
+}
+.gift_collection_title ul li:hover{
+    background: #150e4b;
+    color:#fff;
+    border: 2px solid #150e4b;
+}
+.mixitup-control-active{
+    background: #150e4b;
+    color:#fff !important;
+    border: 2px solid #150e4b !important;
+}
+
+.single_gift_collection{
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+.gift_collection_card_title{
+    display: flex;
+    justify-content: space-between;
+}
+.gift_collection_card_title h5{
+    font-size: 18px;
+    color: #150e4b;
+}
+.gift_collection_card_title i{
+    font-size: 18px;
+    color: #150e4b;
+}
+.gift_collection_footer{
+    display: flex;
+    justify-content: space-between;
+}
+.gift_collection_footer a{
+    color: #150e4b;
+    text-decoration: none;
+    border: 2px solid #dddfe2;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+.gift_collection_footer h4{
+    color:#150e4b;
+    font-size: 24px;
+}
+
+
+
+/*
+   ==============================================
+	7. thinking business
+   ==============================================
+*/
+.thinking_business_section{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.thinking_business_title{
+    text-align: center;
+}
+.thinking_business_title h2{
+    font-size: 45px;
+    color: #150e4b;
+    line-height: 55px;
+    font-weight: 400;
+}
+.thinking_business_title p{
+    font-size: 16px;
+    color: #7c798e;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.single_business_card{
+    background: #fff;
+    border-radius: 20px;
+    padding: 45px 35px;
+}
+.single_business_card i.fas{
+    font-size: 40px;
+    color: #222;
+    margin-bottom: 20px;
+}
+.single_business_card h2{
+    font-size: 20px;
+    color:#150e4b;
+    margin-bottom: 15px;
+}
+.single_business_card p{
+    font-size:15px;
+    color:#7c798e;
+    line-height: 25px;
+}
+
+
+
+/*
+   ==============================================
+    8. make us different
+   ==============================================
+*/
+.make_us_different_section{
+     padding-bottom: 100px;
+}
+.make_us_different_content{}
+.make_us_different_content h2{
+    font-size: 45px;
+    color: #150e4b;
+    line-height: 70px;
+    font-weight: 400;
+    margin-top:50px;
+}
+.make_us_different_content p{
+    font-size: 15px;
+    color: #7c798e;
+    line-height: 30px;
+    margin-top: 18px;
+}
+.make_us_different_content a{
+    background: #B33E35;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 18px 31px;
+    font-size: 18px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.make_us_different_video{}
+.video_box{
+    position: relative;
+}
+.play_btn{
+    background: #f60;
+    color:#fff;
+    font-size:40px;
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top:0;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin:auto;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play_btn:before, .play_btn:after{
+    position: absolute;
+    content: "";
+    border:2px solid #ccc;
+    left:-20px;
+    right:-20px;
+    top:-20px;
+    bottom:-20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+}
+@keyframes animate{
+    0%{
+        transform: scale(.5);
+    }
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(1.2);
+        opacity:0;
+    }
+}
+
+
+
+/*
+   ==============================================
+    9. how dose it work
+   ==============================================
+*/
+.how_dose_it_works{
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.how_dose_it_works_title{
+    text-align: center;
+}
+.how_dose_it_works_title h2{
+    font-size: 45px;
+    color: #150e4b;
+    line-height: 55px;
+    font-weight: 400;
+}
+.how_dose_it_works_title p{
+    font-size: 16px;
+    color: #7c798e;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.single_how_dose_it_works_card{
+    border-radius: 20px;
+    padding: 45px 35px;
+}
+.single_how_dose_it_works_card:hover{
+    background: #fff;
+}
+.single_how_dose_it_works_card h2{
+    font-size: 20px;
+    color:#150e4b;
+    margin-bottom: 15px;
+}
+.single_how_dose_it_works_card p{
+    font-size:15px;
+    color:#7c798e;
+    line-height: 25px;
+}
+.single_how_dose_it_works_card a{
+    color: #150e4b;
+    font-size: 13px;
+    text-transform: uppercase;
+    border: 2px solid #DDDFE2;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+
+
+
+/*
+   ==============================================
+    10. about gratitude
+   ==============================================
+*/
+.about_gratitude_section{}
+.about_gratitude{
+    background: #fff;
+    border-radius: 30px;
+    padding: 60px 40px;
+    border:2px solid #EEF1F6;
+    align-items: center;
+}
+.about_gratitude_content{}
+.about_gratitude_content h2{
+    font-size: 30px;
+    color: #150e4b;
+    line-height: 45px;
+    font-weight: 400;
+}
+.about_gratitude_content p{
+    font-size: 16px;
+    color: #7c798e;
+}
+.about_gratitude_subscribe_btn{
+    text-align: end;
+}
+.about_gratitude_subscribe_btn a{
+    border-radius: 15px;
+    background: #B33E35;
+    color:#fff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 8px 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+
+
+/*
+   ==============================================
+    11. footer section
+   ==============================================
+*/
+.footer_section{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.footer_logo img{
+    width: 110PX;
+}
+.copyright_text{
+    text-align: center;
+}
+.copyright_text p{
+    color: #150e4b;
+    font-size: 16px;
+}
+.social_menu{
+    text-align: right;
+}
+.social_menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: end;
+}
+.social_menu ul li a i{
+    color: #fff;
+    background: #B33E35;
+    padding: 8px;
+    margin-left: 5px;
+    font-size: 12px;
+    border-radius: 50%;
+}
